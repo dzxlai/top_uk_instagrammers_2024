@@ -1,6 +1,5 @@
 
-![Screenshot at Aug 31 18-53-44](https://github.com/user-attachments/assets/62e6bdcb-5497-4d0e-bf10-bd3e23d89e43)
-
+![Screenshot at Sep 01 12-11-18](https://github.com/user-attachments/assets/ab181bca-52c7-4d1a-a5ee-8210a19885a0)
 
 <h1> top_uk_instagrammers_2024 </h1>
 
