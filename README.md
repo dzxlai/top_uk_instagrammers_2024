@@ -19,4 +19,6 @@ Exploring and identifying the top performing UK instagram accounts to form marke
   - I will then pass the dataset through to SQL for the data cleansing process. By setting up a database and table in SQL, I can then pass the dataset as a .csv file and import it into the table ready for data cleansing. Here I am defining cleaning steps and transforming the data to the required structure.
      - Within SQL, I will also test the data by performing a series of data quality checks to ensure 'high-quality' data (i.e. data that is complete and accurate)
 
-- <b> Power BI </b>
+- <b> Python </b>
+  - Data Visualisation
+  - Dashboard
