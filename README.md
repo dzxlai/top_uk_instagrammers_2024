@@ -36,3 +36,20 @@ Stakeholders and head of departments have come to me and want to know who are th
 
 
  <h2> Data Source </h2>
+
+ Where is this data coming from?
+   - For this project we used a .csv dataset sourced from [Kaggle](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+   - Here we were able to extract information about the top 100 social media influencers 2024, including the top users for Instagram.
+   - Some features included:
+      - Rank
+      - Name
+      - Follower Count
+      - Engagement Rate
+      - Potential Reach
+    
+However, after loooking at the dataset, I wanted extra data and features. Some social media platforms have an API that holds meta-information about their users, granting extra information that would be very useful for analysis. Unfortunately, Instagram is not one that has their own. 
+  - In order to go around this, I used a 3rd-party Python library, [instaloader](https://instaloader.github.io/), a tool, that allows me to download public profile statistics from instagram.
+  - Extra features such as:
+      - Following Count
+      - Post Count
+     
