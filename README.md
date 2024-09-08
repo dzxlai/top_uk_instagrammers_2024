@@ -19,5 +19,6 @@ Exploring and identifying the top performing UK instagram accounts to form marke
      - Within SQL, I will also test the data by performing a series of data quality checks to ensure 'high-quality' data (i.e. data that is complete and accurate)
 
 - <b> Python </b>
-  - Data Visualisation
-  - Dashboard
+  - In the next phase of this project, I will leverage Python and its powerful libraries, such as Matplotlib and Seaborn, to create compelling and informative data visualizations. These plots and charts will present key statistics in an easy-to-read manner, allowing for quick insights and clear understanding of important trends.
+  - After generating individual visualizations, I will combine them into a comprehensive dashboard, which will bring together all these insights in a cohesive and interactive format. This dashboard will serve as a centralized platform for analyzing and exploring the data effectively.
+
