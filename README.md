@@ -86,7 +86,7 @@ What should the dashboard contain based on requirements and how should it look l
 | --- | --- |
 | Excel | Exploring the data |
 | SQL (PostgreSQL) | Cleaning, transforming, testing, and analysing the data |
-| Power BI | Visualising the data by create compelling and informative plots |
+| Power BI | Visualising the data by creating compelling and informative plots |
 | GitHub | Hosting the documentation of this project |
 
 
