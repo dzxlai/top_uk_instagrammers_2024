@@ -55,19 +55,20 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
 
 
 <h2> Steps </h2>
-1. Design and implementation
-2. Development and prepraring
-3. Testing
-4. Analysis and Interpretations
 
- 
+      1. Design and implementation
+      2. Development and prepraring
+      3. Testing
+      4. Analysis and Interpretations
+
+
 <h2> Design </h2>
 
 <h3> Dashboard plan </h3>
 
 What should the dashboard contain based on requirements and how should it look like?
 - In order to solve this, we need to break down the problem and figure out potential questions we'd like our dashboard to answer, such as:
-- 
+  
       1. Who are the top 'x' Instagram accounts with the most followers?
       2. Which 'x' Instagram accounts have uploaded the most posts?
       3. Which accounts have the highest following (i.e. engaging back to public accounts)?
