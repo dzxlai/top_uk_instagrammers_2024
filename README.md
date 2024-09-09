@@ -35,7 +35,7 @@ Stakeholders and head of departments have come to me and want to know who are th
   - To create a comprehensive and compelling dashboard that will inclue key information and statistics, allowing the marketing team to conduct informed decisions about taking further steps forward, and therefore maximise how effective each campaign is.
 
 
- <h2> Data Source </h2>
+<h2> Data Source </h2>
 
  Where is this data coming from?
    - For this project we used a .csv dataset sourced from [Kaggle](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
@@ -52,4 +52,45 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
   - Extra features such as:
       - Following Count
       - Post Count
-     
+
+
+<h2> Steps </h2>
+ 1. Design and implementation
+ 2. Development and prepraring
+ 3. Testing
+ 4. Analysis and Interpretations
+
+ 
+<h2> Design </h2>
+
+<h3> Dashboard plan </h3>
+
+What should the dashboard contain based on requirements and how should it look like?
+- In order to solve this, we need to break down the problem and figure out potential questions we'd like our dashboard to answer, such as:
+- 
+      1. Who are the top 'x' Instagram accounts with the most followers?
+      2. Which 'x' Instagram accounts have uploaded the most posts?
+      3. Which accounts have the highest following (i.e. engaging back to public accounts)?
+      4. Which accounts have the most potential reach per post?
+      5. Which channels have the highest average followers per post (i.e. engagement rate)?
+      6. Which channels have the posts per followers gained? 
+
+<h3> Dashboard mockup blueprint </h3>
+
+![dashboard blueprint](https://github.com/user-attachments/assets/cc5cdea2-6707-41aa-90ce-3290f16df617)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
