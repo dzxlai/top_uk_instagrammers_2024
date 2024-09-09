@@ -55,10 +55,10 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
 
 
 <h2> Steps </h2>
- 1. Design and implementation
- 2. Development and prepraring
- 3. Testing
- 4. Analysis and Interpretations
+- 1. Design and implementation
+- 2. Development and prepraring
+- 3. Testing
+- 4. Analysis and Interpretations
 
  
 <h2> Design </h2>
