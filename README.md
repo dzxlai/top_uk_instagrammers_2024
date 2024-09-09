@@ -80,7 +80,7 @@ What should the dashboard contain based on requirements and how should it look l
 ![dashboard blueprint](https://github.com/user-attachments/assets/cc5cdea2-6707-41aa-90ce-3290f16df617)
 
 
-<h3> Tools </h3>
+<h2> Tools </h2>
 
 | Tool | Purpose |
 | --- | --- |
