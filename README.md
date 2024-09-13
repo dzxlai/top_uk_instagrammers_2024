@@ -57,9 +57,18 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
 <h2> Steps </h2>
 
       1. Design and implementation
+      
       2. Development and prepraring
+       - Get the data
+       - Explore the data in MS Excel
+       - Clean the data in SQL
+       
       3. Testing
+       - Test the data in SQL, a series of quality checks to see how robust the data is
+       
       4. Analysis and Interpretations
+       - Visualise the data using powerful Python libraries
+       - Conclude findings using insights gained
 
 
 <h2> Design </h2>
