@@ -284,6 +284,7 @@ HAVING COUNT(*) > 1
 <h3> Dashboard Results </h3>
 
 
+![top_uk_instagrammers_2024_dashboard](https://github.com/user-attachments/assets/a46f4b47-97ab-4fd7-a071-a273880bd2bb)
 
 
 
