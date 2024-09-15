@@ -169,14 +169,114 @@ FROM top_uk_instagrammers_2024;
 ```
 
 
+<h3> Creating SQL view for data testing </h3>
+
+```sql
+/*
+# 1. Creating a SQL view to store the transformed refined dataset.
+# 2. Selecting only the required columns from the top_uk_instagrammers_2024 dataset SQL table.
+*/
+
+CREATE VIEW view_uk_instagrammers_2024 AS
+
+SELECT 
+    initcap(regexp_replace(CAST(SUBSTRING(name, 1, POSITION('@' IN name) - 1) AS VARCHAR(100)), '[^A-Za-z\s]', '', 'g')) as full_name,
+    total_followers AS followers,
+    total_following AS following,
+    total_posts AS posts,
+    CAST(SUBSTRING(engagement_rate, 1, 4) AS float8) AS engagement_rate_percent,
+    CAST(TRIM('M' FROM potential_reach) AS float8) AS potential_reach_per_million
+FROM top_uk_instagrammers_2024;
+```
 
 
+<h2> Testing the data </h2>
+
+Here, are a series of data quality checks.
+
+What is 'high-quality' data?
+- Data that is complete and accurate.
+  - Ideally we don't want:
+    - empty records
+    - duplicate records
+    - inaccurate figures
+    - bad characters
+   
+
+<h3> Data Quality Tests </h3>
+
+1. data needs to be 100 records of instagram accounts (row count test)
+2. completes columns (6 fields) - (column count test)
+3. account names must be string format, total_followers + total_following + total_posts must be whole number format (data type test)
+4. each record must be unique (duplicate count test)
+    
+<b> Goal: </b> make sure actual data is equivalent to expeceted data
+   
+
+<h3> Row Count Test </h3>
+
+- Count the total number of rows (records) are in the our SQL dataset view
+
+```sql
+
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    view_uk_instagrammers_2024;
+
+```
+![row_count_test](https://github.com/user-attachments/assets/16531641-5fd3-495b-bf71-53e39d13b81a)
 
 
+<h3> Column Count Test </h3>
+
+- Count the total number of columns (features/fields) in our SQL view
+- Using information_schema, a meta database that holds sets of views (information) about database objects
+
+```sql
+
+SELECT * 
+FROM information_schema.columns
+WHERE table_name = 'view_uk_instagrammers_2024';
+
+SELECT COUNT(*) AS no_of_columns 
+FROM information_schema.columns
+WHERE table_name = 'view_uk_instagrammers_2024';
+
+```
+![column_count_test](https://github.com/user-attachments/assets/193fef4f-1ec7-472e-accc-7f63cc9099dd)
 
 
+<h3> Data Type Test </h3>
+
+- Check the data type of each column, using the information schema database
+
+```sql
+
+SELECT ordinal_position, column_name, data_type 
+FROM information_schema.columns
+WHERE table_name = 'view_uk_instagrammers_2024'
+ORDER BY ordinal_position;
+
+```
+![data_type_test](https://github.com/user-attachments/assets/08ab69d3-67e8-4e52-b90a-945003b1ef4e)
 
 
+<h3> Duplicate Count Test </h3>
+
+- Using HAVING function, to filter to records that are greater than 1, i.e. identifying duplicates
+
+```sql
+
+SELECT full_name, COUNT(*) AS duplicate_count
+FROM view_uk_instagrammers_2024
+GROUP BY full_name
+HAVING COUNT(*) > 1
+
+```
+![duplicate_count_test](https://github.com/user-attachments/assets/837e2413-4be1-4e40-bf7f-d8cb80b0b828)
+
+- No records returned, implying no duplicate records where located.
 
 
 
