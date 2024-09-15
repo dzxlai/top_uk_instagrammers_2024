@@ -327,7 +327,32 @@ print("average followers gained per post or 'Engagement Rate' = " + str(avg_foll
 
 ```
 
+![engagement_rate_results](https://github.com/user-attachments/assets/e6e00550-4bfc-4c75-bc8d-5f1a9961c843)
+
 <h3> Posts per Followers </h3>
+
+- On average, instagram post rate per followers gained
+
+```Python
+
+sum_of_posts = df['posts'].sum()
+sum_of_followers = df['followers'].sum()
+
+print("sum of posts = " + str(sum_of_posts))
+print("sum of followers = " + str(sum_of_followers))
+
+sum_of_followers_m = sum_of_followers / 1000000
+print("sum of followers (M) = " + str(sum_of_followers_m) + ' M')
+
+print("\n")
+
+avg_posts_per_million_followers = sum_of_posts / sum_of_followers_m
+avg_posts_per_million_followers = avg_posts_per_million_followers.round()
+print("average no. of posts per million followers = " + str(avg_posts_per_million_followers) + ' posts')
+
+```
+
+![posts_per_followers_results](https://github.com/user-attachments/assets/f8764018-4773-4680-95b2-845f63f4187e)
 
 
 <h2> Data Visualisation </h2>
