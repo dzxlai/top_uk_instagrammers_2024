@@ -73,7 +73,7 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
 
 <h2> Design </h2>
 
-<h3> Dashboard plan </h3>
+<h3> Dashboard Plan </h3>
 
 What should the dashboard contain based on requirements and how should it look like?
 - In order to solve this, we need to break down the problem and figure out potential questions we'd like our dashboard to answer, such as:
@@ -101,9 +101,12 @@ What should the dashboard contain based on requirements and how should it look l
 
 
 
+<h2> Data Exploration Notes </h2>
 
+In this step, I scanned through the raw data looking at the values, columns/features and rows to make sure I understood the data. 
+These are the initial observations, i.e. what grabs my attention at first glance? Taking note of things such as errors, inconsistencies, empty or duplicated values, or bad/'corrupted' characters.
 
-
+1. 
 
 
 
