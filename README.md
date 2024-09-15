@@ -279,6 +279,57 @@ HAVING COUNT(*) > 1
 - No records returned, implying no duplicate records where located.
 
 
+<h2> Account Engagement Ratios </h2>
+
+<h3> Potential Reach Per Post </h3>
+
+```Python
+
+sum_of_potential_reach_per_m = df['potential_reach_per_million'].sum()
+sum_of_posts = df['posts'].sum()
+
+print("sum of potential reach (M) = " + str(sum_of_potential_reach_per_m) + ' M')
+print("sum of posts = " + str(sum_of_posts))
+
+print("\n")
+
+avg_potential_reach_m_per_post = sum_of_potential_reach_per_m / sum_of_posts
+print("average potential reach (M) per post = " + str(avg_potential_reach_m_per_post) + ' M')
+
+avg_potential_reach_per_post = avg_potential_reach_m_per_post * 1000000
+avg_potential_reach_per_post = avg_potential_reach_per_post.round()
+print("average potential reach per post = " + str(avg_potential_reach_per_post) + ' people')
+
+```
+
+![potential_reach_per_post_results](https://github.com/user-attachments/assets/d6c41a85-4dbd-4082-a963-845254f5bdf3)
+
+<h3> Follower Engagement Rate </h3>
+
+- Engagement Rate = The level of interaction the influencer's content receives from users on social media platforms, expressed as a percentage.
+
+```Python
+
+# follower engagement rate
+# average followers per post
+
+sum_of_followers = df['followers'].sum()
+sum_of_posts = df['posts'].sum()
+
+print("sum of followers = " + str(sum_of_followers))
+print("sum of posts = " + str(sum_of_posts))
+
+print("\n")
+
+avg_follower_engagement_rate = sum_of_followers / sum_of_posts
+avg_follower_engagement_rate = avg_follower_engagement_rate.round()
+print("average followers gained per post or 'Engagement Rate' = " + str(avg_follower_engagement_rate) + ' people')
+
+```
+
+<h3> Posts per Followers </h3>
+
+
 <h2> Data Visualisation </h2>
 
 <h3> Dashboard Results </h3>
