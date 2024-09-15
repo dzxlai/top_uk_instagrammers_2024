@@ -106,9 +106,77 @@ What should the dashboard contain based on requirements and how should it look l
 In this step, I scanned through the raw data looking at the values, columns/features and rows to make sure I understood the data. 
 These are the initial observations, i.e. what grabs my attention at first glance? Taking note of things such as errors, inconsistencies, empty or duplicated values, or bad/'corrupted' characters.
 
-1. 
+1. There are a few columns that contain the useful data needed for analysis.
+2. The first column, 'NAME' contains both the names of the account, as well their account names, separated by an '@' symbol.
+3. A lot of messy symbols in certain columns that require cleaning.
+4. 'FOLLOWERS' column in the format '87M', need to change this to numerical format
+5. There are more columns than required for this data exploration, so it would be appropriate to remove column features we don't need.
+
+
+<h2> Data Cleaning </h2>
+
+To begin the data cleansing process, I first created a database in SQL, as well as a new table which I can use to input my dataset into, making sure I create each column feature with the appropriate corresponding data type.
+
+The aim is to refine the dataset to ensure it is concise and ready for analysis. Poor standardisation, data errors, etc. can cause inaccuracies and bias' towards the results of our analysis, therefore it is a crucial step.
+
+We want:
+- All data types should be appropriate for the contents of columns.
+- Extracting names from 'NAME' column.
+- Removing duplicated and null values.
+- Keeping only the columns we need for analysis.
+- If needed, rename columns using aliases.
+
+
+<h3> Outling dataframe shape of cleaned dataset: </h3>
+
+  | Property | Description |
+| --- | --- |
+| Number of Rows | 100 |
+| Number of Columns | 6 |
+
+
+<h3> Outling column data types cleaned dataset: </h3>
+
+| Column Name | Data Type |
+| --- | --- |
+| full_name | VARCHAR |
+| followers | INTEGER |
+| following | INTEGER |
+| posts | INTEGER |
+| engagement_rate_percent | FLOAT |
+| potential_reach_million | FLOAT |
+
+
+<h3> Transforming the data </h3>
+
+```sql
+/*
+# 1. Select the required columns
+# 2. Extract names from 'NAME' column
+# 3. Removing 'messy/bad' symbols from 'NAME' column, using regexp_replace, used to replace substrings within a string that match a regular expression with specified replacement substring.
+# 4. Using initcap to standardise formatting of names.
+# 5. CAST on certain columns to appropriately convert their data types to FLOATS
+*/
+
+SELECT 
+    initcap(regexp_replace(CAST(SUBSTRING(name, 1, POSITION('@' IN name) - 1) AS VARCHAR(100)), '[^A-Za-z\s]', '', 'g')) as full_name,
+    total_followers AS followers,
+    total_following AS following,
+    total_posts AS posts,
+    CAST(SUBSTRING(engagement_rate, 1, 4) AS float8) AS engagement_rate_percent,
+    CAST(TRIM('M' FROM potential_reach) AS float8) AS potential_reach_per_million
+FROM top_uk_instagrammers_2024;
+```
 
 
 
 
- 
+
+
+
+
+
+
+
+
+
