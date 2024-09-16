@@ -8,6 +8,39 @@ Exploring and identifying the top performing UK instagram accounts to form marke
 </br>
 </br>
 
+<h2> Table of Contents </h2>
+- [Project Architecture](#project-architecture)
+- [](#)
+
+- [Project Architecture](#project-architecture)
+- [Objective](#objective)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
+  - [Mockup](#mockup)
+  - [Tools](#tools)
+- [Development](#development)
+  - [Pseudocode](#pseudocode)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+  - [Transform the Data](#transform-the-data)
+  - [Create the SQL View](#create-the-sql-view)
+- [Testing](#testing)
+  - [Data Quality Tests](#data-quality-tests)
+- [Visualization](#visualization)
+  - [Results](#results)
+  - [DAX Measures](#dax-measures)
+- [Analysis](#analysis)
+  - [Findings](#findings)
+  - [Validation](#validation)
+  - [Discovery](#discovery)
+- [Recommendations](#recommendations)
+  - [Potential ROI](#potential-roi)
+  - [Potential Courses of Actions](#potential-courses-of-actions)
+- [Conclusion](#conclusion)
+
+
+
 <b> Project Architecture </b>
 
 - <b> Excel </b>
@@ -20,9 +53,6 @@ Exploring and identifying the top performing UK instagram accounts to form marke
 - <b> Python </b>
   - In the next phase of this project, I will leverage Python and its powerful libraries, such as Matplotlib and Seaborn, to create compelling and informative data visualizations. These plots and charts will present key statistics in an easy-to-read manner, allowing for quick insights and clear understanding of important trends.
   - After generating individual visualizations, I will combine them into a comprehensive dashboard, which will bring together all these insights in a cohesive and interactive format. This dashboard will serve as a platform for analyzing and exploring the data effectively.
-
-
-<h2> Table of Contents </h2>
 
 
 <h2> Objectives </h2>
