@@ -405,6 +405,13 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 4. Which 5 accounts have the highest engagement rate? </h3>
 
+| Rank | Name       | Follower Engagement Rate (%)        |
+|------|-----------------   |---------------------------- |
+| 1    | Kit Connor          | 28.6                     |
+| 2    | One Direction        | 17.9                     |
+| 3    | Harry Styles HQ   | 14.5                     |
+| 4    | The UK Rider   | 13.9                     |
+| 5    | Mason Mount   | 13.7                     |
 
 <h3> 5. Which 5 accounts are most active in posting per followers gained? </h3>
 
