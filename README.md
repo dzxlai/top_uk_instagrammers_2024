@@ -1,6 +1,6 @@
 ![Screenshot at Sep 01 12-11-18](https://github.com/user-attachments/assets/ab181bca-52c7-4d1a-a5ee-8210a19885a0)
 
-<h1> Top Performing UK Instagram Account 2024: Excel -> SQL -> Python Project </h1>
+<h1> Top Performing UK Instagram Accounts 2024: Excel -> SQL -> Python Project </h1>
 
 <h2> Description </h2>
 Exploring and identifying the top performing UK instagram accounts to form marketing collaborations with.
