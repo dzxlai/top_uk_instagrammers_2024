@@ -22,6 +22,14 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
 - [Data Cleaning](#data-cleaning)
   - [Outling dataframe shape of cleaned dataset](#outling-dataframe-shape-of-cleaned-dataset)
   - [Outling column data types cleaned dataset](#outling-column-data-types-cleaned-dataset)
+  - [Transforming the data](#transforming-the-data)
+  - [Creating SQL view for data testing](#creating-sql-view-for-data-testing)
+- [Testing the data](#testing-the-data)
+  - [Data Quality Tests](#data-quality-tests)
+  - [Row Count Test](#row-count-test)
+  - [Column Count Test](#column-count-test)
+  - [Data Type Tests](#data-type-test)
+  - [Duplicate Count Tests](#duplicate-count-test)
 
 
 
