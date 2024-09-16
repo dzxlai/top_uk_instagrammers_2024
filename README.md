@@ -37,7 +37,7 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
 - [Data Visualisation](#data-visualisation)
   - [Dashboard Results](#dashbaord-results)
 - [Analysis](#analysis)
-  - [Findings/Results](#findings/results)
+  - [Findings](#findings)
 
 
 
@@ -394,7 +394,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 ## Analysis
 
-### Findings/Results
+### Findings
 
 ### 1. Who are the top 10 Instagram accounts with the most followers?
 
