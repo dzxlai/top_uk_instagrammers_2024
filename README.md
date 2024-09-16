@@ -360,7 +360,8 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 <h3> Dashboard Results </h3>
 
 
-![top_uk_instagrammers_2024_dashboard](https://github.com/user-attachments/assets/a46f4b47-97ab-4fd7-a071-a273880bd2bb)
+![top_uk_instagrammers_2024_dashboard](https://github.com/user-attachments/assets/99c7305b-10ef-4b3b-97e1-073fdb68e046)
+
 
 
 <h2> Analysis </h2>
