@@ -368,10 +368,19 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> Findings/Results </h3>
 
+<h3> 1. Who are the top 10 Instagram accounts with the most followers? </h3>
 
 
+<h3> 2. Which 5 accounts have uploaded the most posts? </h3>
 
 
+<h3> 3. Which 5 accounts have the most potential reach per post </h3>
+
+
+<h3> 4. Which 5 accounts have the highest engagement rate? </h3>
+
+
+<h3> 5. Which 5 accounts are most active in posting per followers gained? </h3>
 
 
 
