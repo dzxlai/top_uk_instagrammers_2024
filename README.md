@@ -3,7 +3,7 @@
 <h1> Top Performing UK Instagram Accounts 2024: Excel -> SQL -> Python Project </h1>
 
 <h2> Description </h2>
-Exploring and identifying the top performing UK instagram accounts to form marketing collaborations with.
+Exploring and identifying the top performing UK Instagram accounts to form marketing collaborations with.
 
 </br>
 </br>
@@ -13,35 +13,13 @@ Exploring and identifying the top performing UK instagram accounts to form marke
 - [](#)
 
 - [Project Architecture](#project-architecture)
-- [Objective](#objective)
-- [Data Source](#data-source)
-- [Stages](#stages)
-- [Design](#design)
-  - [Mockup](#mockup)
-  - [Tools](#tools)
-- [Development](#development)
-  - [Pseudocode](#pseudocode)
-  - [Data Exploration](#data-exploration)
-  - [Data Cleaning](#data-cleaning)
-  - [Transform the Data](#transform-the-data)
-  - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
-- [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
-- [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
+- [Objectives](#objectives)
+- [Data Source](#data-souce)
 
 
 
-<b> Project Architecture </b>
+
+<h2> Project Architecture </h2>
 
 - <b> Excel </b>
   - Using Excel, I will explore the data. Scanning through the Excel dataset file, checking the data, fields (column features), records, properties of the data, errors, inconsistencies and bad characters. This will give me a general idea of how we want to clean the data.
