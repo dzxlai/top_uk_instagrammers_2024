@@ -1,4 +1,4 @@
-
+[instagram_data_united-kingdom_original.csv](https://github.com/user-attachments/files/17016159/instagram_data_united-kingdom_original.csv)[instagram_data_united-kingdom_original.csv](https://github.com/user-attachments/files/17016131/instagram_data_united-kingdom_original.csv)
 ![Screenshot at Sep 01 12-11-18](https://github.com/user-attachments/assets/ab181bca-52c7-4d1a-a5ee-8210a19885a0)
 
 <h1> top_uk_instagrammers_2024: Excel -> SQL -> Python Project </h1>
@@ -70,6 +70,20 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
        - Visualise the data using powerful Python libraries
        - Conclude findings using insights gained
 
+<h2> Raw Dataset </h2>
+
+| #  | Name                               | Followers | ER    | Country        | Topic of Influence                                    | Potential Reach |
+|----|------------------------------------|-----------|-------|----------------|------------------------------------------------------|-----------------|
+| 1  | David Beckham @davidbeckham        | 87M       | 0.64% | United Kingdom | Sports Soccer Public Figure                           | 26.1M           |
+| 2  | Emma Watson @emmawatson            | 75.4M     | 1.41% | United Kingdom | Entertainment and Music, Fashion and Accessories, Education, Celebrity | 22.6M           |
+| 3  | Tom Holland @tomholland2013        | 66.5M     | 4.52% | United Kingdom | Entertainment and Music, Acting and Drama, Actors     | 19.9M           |
+| 4  | Millie Bobby Brown @milliebobbybrown| 63.3M     | 0.02% | United Kingdom | Celebrity, Actors                                     | 19M             |
+| 5  | Adele @adele                       | 55.9M     | 4.14% | United Kingdom | Singer, Music                                         | 16.8M           |
+| 6  | Zayn Malik @zayn                   | 52.2M     | 5.09% | United Kingdom | Entertainment and Music, Music, Singer, Musician      | 15.7M           |
+| 7  | Ed Sheeran @teddysphotos           | 46.9M     | 0.81% | United Kingdom | Entertainment and Music, Music, Songwriting, Singer   | 14.1M           |
+| 8  | Liverpool Football Club @liverpoolfc| 44.3M     | 0.39% | United Kingdom | Sports, Soccer                                        | 13.3M           |
+| 9  | Cara Delevingne @caradelevingne    | 42.1M     | 0.55% | United Kingdom | Fashion and Accessories, Modeling, Actor              | 12.6M           |
+| 10 | Jason Statham @jasonstatham        | 40.5M     | 2.4%  | United Kingdom | Luxury, Photography, Art                              | 2.2M            |
 
 <h2> Design </h2>
 
