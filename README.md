@@ -436,7 +436,9 @@ We discovered that:
 
 What can we recommend based on the insights gathered?
 
-
+1. David Beckham is the best Instagram account to collaborate with if we want to maximise and push visablity. This is because he has teh most followers on Instagram in the UK, and consequently has the highest potential reach.
+2. Liverpool Football Club, Tottenham Hotspur and Arsenal have the most posts, which means they have the most activity on the platform. However, as they are huge company sports clubs, it may be worth considering whether there are better options with other Instagram accounts, as it would require a lot more money and effort, with return on investments being significantly lower compared to others.
+3. Zayn Malik, Tom Holland and Adele can also be highly considered to form collaborations with. These 3 accounts, have the highest followers in correlation to  potential reach. In addition to this, they are top 3 accounts with the largest engagement rates, meaning the have the highest level of interactions with followers.
 
 
 
