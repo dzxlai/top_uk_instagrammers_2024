@@ -12,8 +12,16 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
 
 - [Project Architecture](#project-architecture)
 - [Objectives](#objectives)
-- [Data Source](#data-souce)
-- 
+- [Data Source](#data-source)
+- [Steps](#steps)
+- [Design](#design)
+  - [Dashboard Plan](#dashboard-plan)
+  - [Dashboard mockup blueprint](#dashboard-mockup-blueprint)
+- [Tools](#tools)
+- [Data Exploration Notes](#data-exploration-notes)
+- [Data Cleaning](#data-cleaning)
+  - [Outling dataframe shape of cleaned dataset](#outling-dataframe-shape-of-cleaned-dataset)
+  - [Outling column data types cleaned dataset](#outling-column-data-types-cleaned-dataset)
 
 
 
