@@ -30,7 +30,14 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
   - [Column Count Test](#column-count-test)
   - [Data Type Tests](#data-type-test)
   - [Duplicate Count Tests](#duplicate-count-test)
-
+- [Account Engagement Ratios](#account-engagement-ratios)
+  - [Potential Reach Per Post](#potential-reach-per-post)
+  - [Follower Engagement Rate](#follower-engagement-rate)
+  - [Posts per Followers](#posts-per-followers)
+- [Data Visualisation](#data-visualisation)
+  - [Dashboard Results](#dashbaord-results)
+- [Analysis](#analysis)
+  - [Findings/Results](#findings/results)
 
 
 
