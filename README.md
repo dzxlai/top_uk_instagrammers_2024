@@ -370,7 +370,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 1. Who are the top 10 Instagram accounts with the most followers? </h3>
 
-| Rank | Account Name         | Followers (M) |
+| Rank | Name         | Followers (M) |
 |------|----------------------|-----------------|
 | 1    | David Beckham    | 88.35           |
 | 2    | Emma Watson               | 74.32           |
@@ -385,7 +385,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 2. Which 5 accounts have uploaded the most posts? </h3>
 
-| Rank | Account Name    | Posts Uploaded |
+| Rank | Name    | Posts Uploaded |
 |------|-----------------|-----------------|
 | 1    | Liverpool Football Club       | 28157          |
 | 2    | Tottenham Hotspur | 21013           |
@@ -395,6 +395,13 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 3. Which 5 accounts have the most potential reach per post </h3>
 
+| Rank | Name | Potential Reach (M) |
+|------|--------------|-----------------|
+| 1    | David Beckham       | 26.1           |
+| 2    | Emma Watson   | 22.6           |
+| 3    | Tom Holland   | 19.9           |
+| 4    | Millie Bobby Brown  | 19           |
+| 5    | Adele   | 16.8           |
 
 <h3> 4. Which 5 accounts have the highest engagement rate? </h3>
 
