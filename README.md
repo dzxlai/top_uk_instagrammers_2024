@@ -9,17 +9,16 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
 </br>
 
 <h2> Table of Contents </h2>
-- [Project Architecture](#project-architecture)
-- [](#)
 
 - [Project Architecture](#project-architecture)
 - [Objectives](#objectives)
 - [Data Source](#data-souce)
+- 
 
 
 
 
-<h2> Project Architecture </h2>
+## Project Architecture
 
 - <b> Excel </b>
   - Using Excel, I will explore the data. Scanning through the Excel dataset file, checking the data, fields (column features), records, properties of the data, errors, inconsistencies and bad characters. This will give me a general idea of how we want to clean the data.
@@ -33,7 +32,7 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
   - After generating individual visualizations, I will combine them into a comprehensive dashboard, which will bring together all these insights in a cohesive and interactive format. This dashboard will serve as a platform for analyzing and exploring the data effectively.
 
 
-<h2> Objectives </h2>
+## Objectives
 
 - Key Point / Main Objective
 Stakeholders and head of departments have come to me and want to know who are the top Instagrammers in 2024. They want us to help them use data-driven support in order to decide on which Instagrammers would be the best to collaborate and run marketing campaigns with.
@@ -42,7 +41,7 @@ Stakeholders and head of departments have come to me and want to know who are th
   - To create a comprehensive and compelling dashboard that will inclue key information and statistics, allowing the marketing team to conduct informed decisions about taking further steps forward, and therefore maximise how effective each campaign is.
 
 
-<h2> Data Source </h2>
+## Data Source
 
  Where is this data coming from?
    - For this project we used a .csv dataset sourced from [Kaggle](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
@@ -61,7 +60,7 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
       - Post Count
 
 
-<h2> Steps </h2>
+## Steps
 
       1. Design and implementation
       
@@ -78,9 +77,9 @@ However, after loooking at the dataset, I wanted extra data and features. Some s
        - Conclude findings using insights gained
 
 
-<h2> Design </h2>
+## Design
 
-<h3> Dashboard Plan </h3>
+### Dashboard Plan
 
 What should the dashboard contain based on requirements and how should it look like?
 - In order to solve this, we need to break down the problem and figure out potential questions we'd like our dashboard to answer, such as:
@@ -92,12 +91,12 @@ What should the dashboard contain based on requirements and how should it look l
       5. Which channels have the highest average followers per post (i.e. engagement rate)?
       6. Which channels have the posts per followers gained? 
 
-<h3> Dashboard mockup blueprint </h3>
+### Dashboard mockup blueprint
 
 ![dashboard blueprint](https://github.com/user-attachments/assets/cc5cdea2-6707-41aa-90ce-3290f16df617)
 
 
-<h2> Tools </h2>
+## Tools
 
 | Tool | Purpose |
 | --- | --- |
@@ -108,7 +107,7 @@ What should the dashboard contain based on requirements and how should it look l
 
 
 
-<h2> Data Exploration Notes </h2>
+## Data Exploration Notes
 
 In this step, I scanned through the raw data looking at the values, columns/features and rows to make sure I understood the data. 
 These are the initial observations, i.e. what grabs my attention at first glance? Taking note of things such as errors, inconsistencies, empty or duplicated values, or bad/'corrupted' characters.
@@ -120,7 +119,7 @@ These are the initial observations, i.e. what grabs my attention at first glance
 5. There are more columns than required for this data exploration, so it would be appropriate to remove column features we don't need.
 
 
-<h2> Data Cleaning </h2>
+## Data Cleaning
 
 To begin the data cleansing process, I first created a database in SQL, as well as a new table which I can use to input my dataset into, making sure I create each column feature with the appropriate corresponding data type.
 
@@ -134,7 +133,7 @@ We want:
 - If needed, rename columns using aliases.
 
 
-<h3> Outling dataframe shape of cleaned dataset: </h3>
+### Outling dataframe shape of cleaned dataset:
 
   | Property | Description |
 | --- | --- |
@@ -142,7 +141,7 @@ We want:
 | Number of Columns | 6 |
 
 
-<h3> Outling column data types cleaned dataset: </h3>
+### Outling column data types cleaned dataset:
 
 | Column Name | Data Type |
 | --- | --- |
@@ -154,7 +153,7 @@ We want:
 | potential_reach_million | FLOAT |
 
 
-<h3> Transforming the data </h3>
+### Transforming the data
 
 ```sql
 /*
@@ -176,7 +175,7 @@ FROM top_uk_instagrammers_2024;
 ```
 
 
-<h3> Creating SQL view for data testing </h3>
+### Creating SQL view for data testing
 
 ```sql
 /*
@@ -197,7 +196,7 @@ FROM top_uk_instagrammers_2024;
 ```
 
 
-<h2> Testing the data </h2>
+## Testing the data
 
 Here, are a series of data quality checks.
 
@@ -210,7 +209,7 @@ What is 'high-quality' data?
     - bad characters
    
 
-<h3> Data Quality Tests </h3>
+### Data Quality Tests
 
 1. data needs to be 100 records of instagram accounts (row count test)
 2. completes columns (6 fields) - (column count test)
@@ -220,7 +219,7 @@ What is 'high-quality' data?
 <b> Goal: </b> make sure actual data is equivalent to expeceted data
    
 
-<h3> Row Count Test </h3>
+### Row Count Test
 
 - Count the total number of rows (records) are in the our SQL dataset view
 
@@ -235,7 +234,7 @@ FROM
 ![row_count_test](https://github.com/user-attachments/assets/16531641-5fd3-495b-bf71-53e39d13b81a)
 
 
-<h3> Column Count Test </h3>
+### Column Count Test
 
 - Count the total number of columns (features/fields) in our SQL view
 - Using information_schema, a meta database that holds sets of views (information) about database objects
@@ -254,7 +253,7 @@ WHERE table_name = 'view_uk_instagrammers_2024';
 ![column_count_test](https://github.com/user-attachments/assets/193fef4f-1ec7-472e-accc-7f63cc9099dd)
 
 
-<h3> Data Type Test </h3>
+### Data Type Test
 
 - Check the data type of each column, using the information schema database
 
@@ -269,7 +268,7 @@ ORDER BY ordinal_position;
 ![data_type_test](https://github.com/user-attachments/assets/08ab69d3-67e8-4e52-b90a-945003b1ef4e)
 
 
-<h3> Duplicate Count Test </h3>
+### Duplicate Count Test
 
 - Using HAVING function, to filter to records that are greater than 1, i.e. identifying duplicates
 
@@ -286,9 +285,9 @@ HAVING COUNT(*) > 1
 - No records returned, implying no duplicate records where located.
 
 
-<h2> Account Engagement Ratios </h2>
+## Account Engagement Ratios
 
-<h3> Potential Reach Per Post </h3>
+### Potential Reach Per Post
 
 ```Python
 
@@ -311,7 +310,7 @@ print("average potential reach per post = " + str(avg_potential_reach_per_post) 
 
 ![potential_reach_per_post_results](https://github.com/user-attachments/assets/d6c41a85-4dbd-4082-a963-845254f5bdf3)
 
-<h3> Follower Engagement Rate </h3>
+### Follower Engagement Rate
 
 - Engagement Rate = The level of interaction the influencer's content receives from users on social media platforms, expressed as a percentage.
 
@@ -336,8 +335,7 @@ print("average followers gained per post or 'Engagement Rate' = " + str(avg_foll
 
 ![engagement_rate_results](https://github.com/user-attachments/assets/e6e00550-4bfc-4c75-bc8d-5f1a9961c843)
 
-<h3> Posts per Followers </h3>
-
+### Posts per Followers
 - On average, instagram post rate per followers gained
 
 ```Python
@@ -362,20 +360,20 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 ![posts_per_followers_results](https://github.com/user-attachments/assets/f8764018-4773-4680-95b2-845f63f4187e)
 
 
-<h2> Data Visualisation </h2>
+## Data Visualisation
 
-<h3> Dashboard Results </h3>
+### Dashboard Results
 
 
 ![top_uk_instagrammers_2024_dashboard](https://github.com/user-attachments/assets/99c7305b-10ef-4b3b-97e1-073fdb68e046)
 
 
 
-<h2> Analysis </h2>
+## Analysis
 
-<h3> Findings/Results </h3>
+### Findings/Results
 
-<h3> 1. Who are the top 10 Instagram accounts with the most followers? </h3>
+### 1. Who are the top 10 Instagram accounts with the most followers?
 
 | Rank | Name         | Followers (M) |
 |------|----------------------|-----------------|
@@ -390,7 +388,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 | 9    | Jason Statham              | 42.39           |
 | 10   | Cara Delevingne                | 41.33           |
 
-<h3> 2. Which 5 accounts have uploaded the most posts? </h3>
+### 2. Which 5 accounts have uploaded the most posts?
 
 | Rank | Name    | Posts Uploaded |
 |------|-----------------|-----------------|
@@ -400,7 +398,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 | 4    | Mercedes-AMG Petronas F Team        | 15585           |
 | 5    | Vicky Pattinson        | 10785           |
 
-<h3> 3. Which 5 accounts have the most potential reach per post </h3>
+### 3. Which 5 accounts have the most potential reach per post?
 
 | Rank | Name | Potential Reach (M) |
 |------|--------------|-----------------|
@@ -410,7 +408,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 | 4    | Millie Bobby Brown  | 19           |
 | 5    | Adele   | 16.8           |
 
-<h3> 4. Which 5 accounts have the highest engagement rate? </h3>
+### 4. Which 5 accounts have the highest engagement rate?
 
 | Rank | Name       | Follower Engagement Rate (%)        |
 |------|-----------------   |---------------------------- |
@@ -420,7 +418,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 | 4    | The UK Rider   | 13.9                     |
 | 5    | Mason Mount   | 13.7                     |
 
-<h3> 5. Which 5 accounts are most active in posting per followers gained? </h3>
+### 5. Which 5 accounts are most active in posting per followers gained?
 
 | Rank | Name       | Posts per Followers (M) gained        |
 |------|-----------------   |---------------------------- |
@@ -431,7 +429,7 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 | 5    | Adnan Alkateb   | 838                     |
 
 
-<h2> Discovery </h2>
+## Discovery
 
 We discovered that:
 
@@ -440,7 +438,7 @@ We discovered that:
 3. Disregarding company/organisation accounts, individual accounts with the most followers; Cara Delevinge, Ed Sheeran and David Beckham are the accounts with the most posts uploaded.
 4. Zayn Malik, Tom Holland and Adele have the highest follower engagement rates for the top followed accounts regarding most followers vs potential reach.
 
-<h3> Recommendations </h3>
+## Recommendations
 
 What can we recommend based on the insights gathered?
 
