@@ -38,6 +38,8 @@ Exploring and identifying the top performing UK Instagram accounts to form marke
   - [Dashboard Results](#dashbaord-results)
 - [Analysis](#analysis)
   - [Findings](#findings)
+- [Discovery](#discovery)
+- [Recommendations](#recommendations)
 
 
 
