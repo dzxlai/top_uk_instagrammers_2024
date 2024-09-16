@@ -385,6 +385,13 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 2. Which 5 accounts have uploaded the most posts? </h3>
 
+| Rank | Account Name    | Posts Uploaded |
+|------|-----------------|-----------------|
+| 1    | Liverpool Football Club       | 28157          |
+| 2    | Tottenham Hotspur | 21013           |
+| 3    | Arsenal        | 19306           |
+| 4    | Mercedes-AMG Petronas F Team        | 15585           |
+| 5    | Vicky Pattinson        | 10785           |
 
 <h3> 3. Which 5 accounts have the most potential reach per post </h3>
 
