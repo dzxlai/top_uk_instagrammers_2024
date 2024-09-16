@@ -431,11 +431,11 @@ We discovered that:
 1. David Beckham, Emma Watson and Tom Holland are the Instagram accounts with the most followers in the UK.
 2. Liverpool Football Club, Tottenham Hotspur and Arsenal are the accounts with the most posts uploaded.
 3. Disregarding company/organisation accounts, individual accounts with the most followers; Cara Delevinge, Ed Sheeran and David Beckham are the accounts with the most posts uploaded.
-4. Zayn Malik, Tom Holland and Adele have the highest engagement rates for most followers vs potential reach.
+4. Zayn Malik, Tom Holland and Adele have the highest follower engagement rates for the top followed accounts regarding most followers vs potential reach.
 
 <h3> Recommendations </h3>
 
-
+What can we recommend based on the insights gathered?
 
 
 
