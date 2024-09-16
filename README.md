@@ -370,6 +370,18 @@ print("average no. of posts per million followers = " + str(avg_posts_per_millio
 
 <h3> 1. Who are the top 10 Instagram accounts with the most followers? </h3>
 
+| Rank | Account Name         | Followers (M) |
+|------|----------------------|-----------------|
+| 1    | David Beckham    | 88.35           |
+| 2    | Emma Watson               | 74.32           |
+| 3    | Tom Holland           | 65.11           |
+| 4    | Millie Bobby Brown            | 63.46           |
+| 5    | Adele           | 57.58           |
+| 6    | Zayn Malik                  | 51.87           |
+| 7    | Ed Sheeran                | 47.89           |
+| 8    | Liverpool Football Club             | 45.63           |
+| 9    | Jason Statham              | 42.39           |
+| 10   | Cara Delevingne                | 41.33           |
 
 <h3> 2. Which 5 accounts have uploaded the most posts? </h3>
 
